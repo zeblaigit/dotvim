@@ -18,6 +18,8 @@ syntax on
 if has("gui_running") 
     highlight SpellBad term=underline gui=undercurl guisp=Orange 
 endif
+"Lecture raccourcis clavier
+execute 'source ' . $HOME . '/.vim/shortkeys.vim'
 " Activation completion python
 au FileType python set omnifunc=pythoncomplete#Complete
 " Activation completion js
