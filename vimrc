@@ -40,3 +40,6 @@ function! SetAutoDjangoCompletion()
     echo 'Activation de la complétion Django avec : '.djangoVar
     return 1
 endfunction
+" Affichage des numéros de ligne
+set number
+highlight LineNr ctermbg=blue ctermfg=gray
