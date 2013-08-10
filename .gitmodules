@@ -7,3 +7,6 @@
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/pyref"]
+	path = bundle/pyref
+	url = https://github.com/xolox/vim-pyref.git
