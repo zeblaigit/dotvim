@@ -10,3 +10,9 @@
 [submodule "bundle/pyref"]
 	path = bundle/pyref
 	url = https://github.com/xolox/vim-pyref.git
+[submodule "bundle/pydoc"]
+	path = bundle/pydoc
+	url = https://github.com/fs111/pydoc.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
